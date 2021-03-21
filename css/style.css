@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+:root{
+	--fondo-gris:#EFEFEF;
+	--fondo-gris-2: #F2F2F2;
+	--fondo-gris-3: ;
+	--color-morado:#CA3260;
+	--color-azul: #1AAED3;
+	--color-naranja: #F8AA26;
+	--color-letra: #000000;
+}
+
+body{
+	font-family: "Helvetica" "sans-serif";
+}
+
+header{
+	background-color: var(--fondo-gris);
+	padding: 20px 0;
+}
+
+.nav-item{
+	color: var(--color-letra);
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-letra);
+	font-family: 'Pangolin', cursive;
+}
+
+p{
+	line-height: 25px
+}
+
+#hero-slides h1{
+	font-size: 50px;
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+
+#hero-slides h3{
+	font-size: 28px;
+	margin-bottom: 30px;
+	font-weight: 200;
+}
+
+#hero-slides .btn-light{
+	background-color: transparent;
+	border: 2px solid #939393;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: var(--color-negro);
+	font-size: 14px;
+	font-weight: 600;
+}
+#hero .btn-light:hover,
+#hero-slides .btn-light:hover{
+	background-color: #333333;
+	color: #FFFFFF;
+	border-color: #333333;
+}
+
+#intro{
+	margin-bottom: 25px;
+}
+
+#servicio{
+	background-color: #000000;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+#servicio h2, li{
+	color: #FFFFFF;
+}
+.textoservicio{
+	color: #FFFFFF;
+}
+
+.list-icon i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 100%;
+	color: var(--color-naranja);
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #ddd;
+	font-size: 22px;
+	margin-right: 10px;
+}
+.list-icon li{
+	margin-bottom: 10px;
+}
+.list-icon i:hover{
+	color: var(--color-negro);
+}
+
+#animacion, #produ, #foto{
+	background-color: var(--fondo-gris);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#animacion, #produ, #foto i{
+	color: var(--color-azul);
+	font-size: 30px;
+	padding-top: 10px;
+}
+
+.subtitulo{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-weight: 90;
+}
+
+#contacto{
+	padding-top: 40px;
+}
+
+.infomap{
+	color:#000000;
+}
+
+#contacto h2{
+	font-size: 25px;
+}
+
+#contacto .list-icon i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 100%;
+	color: var(--color-morado);
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #ddd;
+	font-size: 22px;
+	margin-right: 10px;
+}
+#contacto .list-icon li{
+	margin-bottom: 10px;
+}
+#contacto .list-icon i:hover{
+	color: #000000;
+}
+
+.infomapa{
+	color:#000000;
+}
+
+footer{
+	background-color: var(--fondo-gris);
+	color: #777;
+	padding: 20px 0;
+	font-size: 13px;
+}
+
+/*Computadora (lg)*/
+@media (min-width:1200px){
+	
+}
+
+/*Tablet (sm)*/
+@media (min-width:600px) and (max-width:1200px){
+	
+}
+
+/*Celular (lg)*/
+@media (max-width:600px){
+	.fotografias img{
+		margin-top: 20px;
+	}
+}
